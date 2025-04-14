@@ -13,10 +13,12 @@ export class TranslateComponent {
   ngOnInit(): void{
      
     this.translate.use('en');
+
   }
 
   onEnglish(lang: string) {
     this.translate.use(lang);
+    // this.setDirection(lang);
   }
 
   onUrdu(lang: string) {
