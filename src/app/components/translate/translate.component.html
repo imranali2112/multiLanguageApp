@@ -1,0 +1,15 @@
+<h1 class="d-flex justify-content-center align-items-center bg-success text-white p-3">Internationalization</h1>
+<div class="container">
+  <div class="mb-3 mt-3">
+    <button class="btn btn-success" (click)="onEnglish('en')">English</button>
+    <button class="btn btn-success ms-5" (click)="onUrdu('ur')">Urdu</button>
+  </div>
+
+  <div>
+    <h3>{{'title' | translate}}</h3>
+    <p>{{ 'hello'| translate }}</p>
+    <br>
+    <h3> {{'titleForDeveloper' | translate }} </h3>
+    <p>{{ 'description'| translate }}</p>
+  </div>
+</div>
