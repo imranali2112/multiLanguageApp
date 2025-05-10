@@ -17,5 +17,7 @@
     "benefit4":"Strong Community Support",
     "benefit4Des":"Angular is backed by a large, active community, providing ample resources, tutorials, and support for developers.",
     "agnularFeature":"Angular 19 Features",
-    "agnularFeatureDes":"Angular 19 introduces several new features, including improved performance, better support for TypeScript 4.9, and enhanced accessibility tools. It also introduces advanced optimization techniques, making applications faster and more efficient, along with further updates to Angular’s CLI and better integration with modern build tools like Webpack."
+    "agnularFeatureDes":"Angular 19 introduces several new features, including improved performance, better support for TypeScript 4.9, and enhanced accessibility tools. It also introduces advanced optimization techniques, making applications faster and more efficient, along with further updates to Angular’s CLI and better integration with modern build tools like Webpack.",
+    "footer":"Copyright © 2025 | All rights reserved. | Privacy Policy",
+    "language":"Select language"
 }

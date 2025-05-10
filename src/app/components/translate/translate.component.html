@@ -2,20 +2,20 @@
   <div class="container d-flex justify-content-between align-items-center text-white">
     <div>
       <h1 class="me-2 ms-2">Internationalization</h1>
-    </div>
+    </div> 
+    
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class=" collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto d-flex justify-content-end">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <div> 
-            <select class="form-control" style="max-width: 150px; width: 100%;">
-              <option value="">Select Language</option>
+          <div class="form-group">
+            <select class="p-2 rounded" (change)="setLanguage($event)">
+              <option value="">{{'language' | translate}}</option>
               <option value="en">English</option>
               <option value="ur">Urdu</option>
             </select>
@@ -28,7 +28,7 @@
 
 
 <!-- main content -->
-<div class="container shadow-lg mt-2-lg p-4">
+<div class="container shadow-lg mt-lg-2 p-4">
   <div class="mt-2">
     <h1>{{'welcome' | translate}}</h1>
     <!-- <h5>{{ 'subtitle'| translate }}</h5> -->
@@ -76,8 +76,8 @@
   </div>
 </div>
 
-<footer class="bg-success p-3 mt-4-lg">
-  <div class="container  d-flex justify-content-center align-items-start text-white">
-    <p class="mt-2">Copyright © 2025 | All rights reserved. | Privacy Policy</p>
-  </div>
+<footer class="bg-success p-3 mt-lg-4">
+ <div class="container d-flex justify-content-center align-items-center text-white" style="height: 100px;">
+  <p class="mb-0 text-center">{{ 'footer'| translate }}</p>
+</div>
 </footer>
