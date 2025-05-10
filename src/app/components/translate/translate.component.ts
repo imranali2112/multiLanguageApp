@@ -8,21 +8,23 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './translate.component.scss'
 })
 export class TranslateComponent {
-  translate: TranslateService = inject(TranslateService);
+   translate: TranslateService = inject(TranslateService);
+   
+  ngOnInit(): void {
+    this.translate.use('en'); // default language
+  }
+ 
 
-  ngOnInit(): void{
-     
-    this.translate.use('en');
+  setLanguage(event: Event): void {
+    const selectElement = event.target as HTMLSelectElement;
+    const lang = selectElement.value;
 
+    if (lang) {
+      this.translate.use(lang);
+      document.documentElement.dir = (lang === 'ur') ? 'rtl' : 'ltr';
+    }
   }
 
-  onEnglish(lang: string) {
-    this.translate.use(lang);
-    // this.setDirection(lang);
-  }
 
-  onUrdu(lang: string) {
-    this.translate.use(lang);
-  }
-
+  
 }

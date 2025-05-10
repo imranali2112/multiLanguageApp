@@ -1,15 +1,83 @@
-<h1 class="d-flex justify-content-center align-items-center bg-success text-white p-3">Internationalization</h1>
-<div class="container">
-  <div class="mb-3 mt-3">
-    <button class="btn btn-success" (click)="onEnglish('en')">English</button>
-    <button class="btn btn-success ms-5" (click)="onUrdu('ur')">Urdu</button>
-  </div>
+<nav class="bg-success p-3 navbar navbar-expand-lg navbar-light">
+  <div class="container d-flex justify-content-between align-items-center text-white">
+    <div>
+      <h1 class="me-2 ms-2">Internationalization</h1>
+    </div>
 
-  <div>
-    <h3>{{'title' | translate}}</h3>
-    <p>{{ 'hello'| translate }}</p>
-    <br>
-    <h3> {{'titleForDeveloper' | translate }} </h3>
-    <p>{{ 'description'| translate }}</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class=" collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto d-flex justify-content-end">
+        <li class="nav-item">
+          <div> 
+            <select class="form-control" style="max-width: 150px; width: 100%;">
+              <option value="">Select Language</option>
+              <option value="en">English</option>
+              <option value="ur">Urdu</option>
+            </select>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- main content -->
+<div class="container shadow-lg mt-2-lg p-4">
+  <div class="mt-2">
+    <h1>{{'welcome' | translate}}</h1>
+    <!-- <h5>{{ 'subtitle'| translate }}</h5> -->
+  </div>
+  <div class="mt-4">
+    <div>
+      <h3>{{'webTitle' | translate}}</h3>
+      <p>{{ 'webDescription'| translate }}</p>
+    </div>
+
+    <div>
+      <h3> {{'frontEnd' | translate }} </h3>
+      <p>{{ 'frontEndDecription'| translate }}</p>
+    </div>
+
+    <div>
+      <h3> {{'angular' | translate }} </h3>
+      <p>{{ 'angularDescription'| translate }}</p>
+    </div>
+    <div class="features-section">
+      <h3>{{ 'benefitTitle' | translate }}</h3>
+      <ul class="feature-list">
+        <li>
+          <strong>{{ 'benefit1' | translate }}</strong>
+          <p>{{ 'benefit1Des' | translate }}</p>
+        </li>
+        <li>
+          <strong>{{ 'benefit2' | translate }}</strong>
+          <p>{{ 'benefit2Des' | translate }}</p>
+        </li>
+        <li>
+          <strong>{{ 'benefit3' | translate }}</strong>
+          <p>{{ 'benefit3Des' | translate }}</p>
+        </li>
+        <li>
+          <strong>{{ 'benefit4' | translate }}</strong>
+          <p>{{ 'benefit4Des' | translate }}</p>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3> {{'angular' | translate }} </h3>
+      <p>{{ 'angularDescription'| translate }}</p>
+    </div>
   </div>
 </div>
+
+<footer class="bg-success p-3 mt-4-lg">
+  <div class="container  d-flex justify-content-center align-items-start text-white">
+    <p class="mt-2">Copyright © 2025 | All rights reserved. | Privacy Policy</p>
+  </div>
+</footer>

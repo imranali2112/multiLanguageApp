@@ -1,6 +1,21 @@
 {
-    "title": "How to become a angular developer at 2025",
-    "hello":"To become an Angular developer, start by building a solid foundation in HTML, CSS, and JavaScript, as these are essential for working with any front-end framework. Then, focus on learning TypeScript, since Angular is built using it. Once comfortable with the basics, dive into Angular’s core concepts like components, modules, services, routing, and data binding. Practice by building small projects, gradually increasing complexity to strengthen your understanding. Explore official Angular documentation, tutorials, and online courses to gain deeper insights. Consistent hands-on coding, debugging, and staying updated with new Angular releases will help you grow into a skilled Angular developer over time.",
-    "titleForDeveloper":"5 Essential Tips for New Angular Developers",
-    "description":"If you're a new Angular developer, it's important to start by mastering the fundamentals of TypeScript, as Angular is built entirely on it. A solid grasp of TypeScript features like interfaces, classes, and type annotations will help you write more reliable and maintainable code. Next, focus on understanding Angular's core concepts such as components, modules, services, directives, and routing. These are the building blocks of every Angular application, and getting comfortable with them early on will make the rest of your development process much easier. Make good use of the Angular CLI, a command-line tool that helps you quickly generate components, services, and other essentials while keeping your project well-structured. It's also crucial to organize your code properly from the beginning—break your application into smaller, reusable modules and components to keep things clean and scalable. Lastly, don’t forget the importance of practicing regularly; build small projects, follow Angular's official documentation, and explore community forums or GitHub projects to enhance your learning and stay up to date with best practices."
+    "welcome": "Welcome to Our Website",
+    "subtitle": " We aim to provide you with the best experience in your own language through our multilingual application.",
+    "webTitle": "Web Development",
+    "webDescription": " Web development refers to the process of building and maintaining websites. It involves tasks like designing the structure, implementing functionality, and ensuring user interaction on the web. Web development typically includes both frontend (client-side) and backend (server-side) development to create a fully functional site or web application.",
+    "frontEnd":"Frontend Development",
+    "frontEndDecription":"Frontend development focuses on creating the visual and interactive aspects of a website that users directly engage with. This includes designing the layout, structure, and functionality of the user interface using languages like HTML, CSS, and JavaScript, ensuring a seamless user experience across devices and browsers.",
+    "angular": "Angular Developer",
+    "angularDescription":"An Angular developer is a software developer specializing in using Angular, a popular open-source framework for building dynamic, single-page web applications. They are skilled in TypeScript, HTML, CSS, and JavaScript, and focus on creating the frontend of web applications with features like data binding, routing, and dependency injection.",
+    "benefitTitle":"Benefits of Angular",
+    "benefit1":"Two-Way Data Binding",
+    "benefit1Des":"Angular’s two-way data binding simplifies synchronization between the model and the view, reducing the need for additional code.",
+    "benefit2":"Modular Structure",
+    "benefit2Des":"Angular’s modular approach promotes code reusability and maintainability, making it easier to scale large applications.",
+    "benefit3":"Comprehensive Ecosystem",
+    "benefit3Des":"Angular comes with built-in tools for routing, forms, HTTP requests, and testing, reducing the need for third-party libraries.",
+    "benefit4":"Strong Community Support",
+    "benefit4Des":"Angular is backed by a large, active community, providing ample resources, tutorials, and support for developers.",
+    "agnularFeature":"Angular 19 Features",
+    "agnularFeatureDes":"Angular 19 introduces several new features, including improved performance, better support for TypeScript 4.9, and enhanced accessibility tools. It also introduces advanced optimization techniques, making applications faster and more efficient, along with further updates to Angular’s CLI and better integration with modern build tools like Webpack."
 }
